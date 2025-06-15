@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    background-color: white;
+  }
+  a {
+    color: #666;
+  margin: 20px;
+    text-decoration: none; 
+  }
+  p{
+    font-size: 1.4em;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #ddd;
+  }
+  
+  .profile-info h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .about-me {
+    margin-bottom: 20px;
+  }
+  
+  .about-me h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    color: #333;
+
+  }
+  .container {
+    display: flex;       
+    justify-content: center; 
+    align-items: center;    
+    width: 100px;             
+     height: 300px;     
+    text-align: center;     
+  }
+  
+  .container p {
+      margin: 0;  
+  }
+  
+  
+  .about-me ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me li {
+    margin-bottom: 5px;
+  }
+  
+  .star {
+    color: gold; 
+    font-size: 1.2em;
+  }
+  
+  .contacts {
+    margin-bottom: 20px;
+  }
+  
+  .contacts h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    color: #333;
+  }
+  
+  .contacts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts li {
+    margin-bottom: 5px;
+  }
+  
+  .contacts a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    text-decoration: underline;
+  }
+  
+  .download-resume {
+    text-align: center;
+  }
+  
+  .download-resume a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .download-resume a:hover {
+    background-color: #0056b3;
+  }
+  
+  
